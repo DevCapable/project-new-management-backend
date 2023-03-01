@@ -1,0 +1,40 @@
+<div class="card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h5 class="mb-0">{{ __('Comment') }}</h5>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-3">
+        <div class="timeline timeline-one-side " data-timeline-content="axis" data-timeline-axis-style="dashed">
+            <form method="post" action="{{ route($route,[$currentWorkspace->slug,$project->project_id]) }}">
+                @csrf
+                <textarea id="summernote" name="editordata" ></textarea>
+                <br>
+                <div style="float: right">
+                @auth('web')
+                        <button  class="btn btn-success btn-lg btn-block float-md-right" type="submit"
+                                 value="comment" >
+                            <i class="fa fa-check-circle fa-lg"></i> Approved!
+                        </button>
+                        <button  class="btn btn-danger btn-lg btn-block float-md-right" type="submit"
+                                 value="comment" >
+                            <i class="fa fa-arrow-alt-circle-left fa-lg"></i> Reject!
+                        </button>
+                    @else
+                        <button  class="btn btn-success btn-lg btn-block float-md-right" type="submit"
+                                 value="comment" >
+                            <i class="fa fa-envelope-open-text fa-lg"></i> Send Comment!
+                        </button>
+                    @endauth
+
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
