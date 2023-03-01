@@ -1,0 +1,13 @@
+ID,Name,email,currant_workspace,type,Created At,Updated At
+1,Admin,admin@example.com,1,admin,2020-03-11T14:55:18.000000Z,2021-10-19T03:25:11.000000Z
+2,Company,company@example.com,1,user,2020-03-11T15:09:47.000000Z,2021-12-03T09:39:33.000000Z
+3,Alex,alex@example.com,1,user,2020-03-11T15:10:05.000000Z,2021-12-01T08:22:05.000000Z
+4,Peter,peter@example.com,1,user,2020-03-11T15:10:15.000000Z,2021-12-01T07:57:50.000000Z
+5,Parker,parker@example.com,1,user,2020-03-11T15:10:22.000000Z,2021-10-19T11:53:33.000000Z
+6,Jeff,jeff@example.com,1,user,2020-03-11T15:10:33.000000Z,2021-02-09T11:06:44.000000Z
+7,Max Collins,max.csssollins@gmail.com,2,user,2021-02-10T11:41:16.000000Z,2021-12-01T08:15:34.000000Z
+12,abc,esfcdedfcr@gmail.com,9,user,2021-12-07T10:32:46.000000Z,2021-12-07T10:32:46.000000Z
+13,xyz,grftgrr@gmaoil.com,,user,2021-12-07T10:35:47.000000Z,2021-12-07T10:35:47.000000Z
+14,defrederfgedftgfr,edferdftgrftygfr@gmail.com,,user,2021-12-07T10:37:12.000000Z,2021-12-07T10:37:12.000000Z
+15,mitali,mitali@gmail.com,10,user,2021-12-07T10:52:13.000000Z,2021-12-07T10:52:14.000000Z
+18,prital,prital@gmail.com,,user,2021-12-08T03:22:42.000000Z,2021-12-08T03:22:42.000000Z
